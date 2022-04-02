@@ -1,0 +1,112 @@
+body 
+ {
+    width: 1440px; 
+    margin: 0;
+ }
+
+.header {
+    display: grid;
+    grid-template-columns: 720px 720px;
+    height: 91px;
+}
+
+.header__logo {
+    margin: 26px 476px 25px 135px; 
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0px 135px 0px 135px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: 2px;
+    text-transform: uppercase;  
+}
+
+.header__nav-list {
+    margin: 34px 15px 35px 16px;
+    color: #6C6C6C;
+    text-decoration: none;
+}
+
+.header__nav-list:last-child {
+    border-left: 1px solid #EBEBEB;
+}
+
+.header__nav-list:hover {
+    color: #AC1313;
+    text-decoration: underline;
+}
+.promo {
+    height: 708px;
+    background:    
+            url(img/PromoRight1.png) no-repeat 623px 136px,
+            url(img/HeaderBackground.jpg);
+}
+
+.promo__about {
+    display: inline-block;
+    margin: 192px auto 211px 144px;
+    text-align: left;
+}
+
+
+.promo__heading {
+    margin: 0;
+    margin-bottom: 12px;
+}
+.heading-small {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #D77474;
+}
+.promo__text_big {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    color: #000000;
+    margin: 0;
+}
+.promo__image_in-text {
+}
+.image-in-text {
+}
+.promo__text {
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #6C6C6C;
+    margin: 0;
+    margin-top: 14px;
+    margin-bottom: 51px;
+}
+
+.promo__button {
+    width: 201px;
+    height: 62px;
+}
+.button {
+    background: #AC1313;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
